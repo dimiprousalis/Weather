@@ -1,0 +1,88 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+html {
+  height: 100%;
+}
+
+body {
+  background-image: linear-gradient(to bottom right, rgb(255, 198, 152), rgb(255, 164, 194));
+}
+
+.backgroundHot {
+  background-image: linear-gradient(to bottom right, rgb(255, 171, 103), rgb(247, 77, 77));
+}
+
+.backgroundCold {
+  background-image: linear-gradient(to bottom right, rgb(42, 42, 119), rgb(182, 196, 241));
+}
+
+main {
+  background: rgba(255, 255, 255, 0.934);
+  color: gray;
+  width: 600px;
+  padding: 2rem;
+  border: 2px solid darkgray;
+  font-family: 'Edu NSW ACT Foundation', Times, serif;
+  box-shadow: 10px 5px 8px rgb(79, 78, 78);
+  margin-right: 20%;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 2%;
+}
+
+.top {
+  text-align: center;
+}
+
+span {
+  color: darkgray;
+}
+
+h3 {
+  padding: 2rem;
+  color: black;
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+img {
+  width: 100%;
+}
+
+.pic {
+  width: 20%;
+  padding-right: 5%;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
